@@ -15,6 +15,7 @@
         <core.version>1.0-SNAPSHOT</core.version>
         <jackson-databind.version>2.13.0</jackson-databind.version>
     </properties>
+
     <repositories>
         <repository>
             <id>jitpack.io</id>
@@ -25,24 +26,28 @@
         <dependency>
             <groupId>com.github.jisantillan</groupId>
             <artifactId>tp-pp2-core</artifactId>
-            <version>iteracion-1-1dc5d389b3-1</version>
+            <version>iteracion-1-34812872d1-1</version>
         </dependency>
         <dependency>
             <groupId>com.github.jisantillan</groupId>
             <artifactId>tp-pp2-UI</artifactId>
-            <version>iteracion-1-73fa808b3a-1</version>
+            <version>iteracion-1-c3d2b61b6f-1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jisantillan</groupId>
+            <artifactId>tp-pp2-logger</artifactId>
+            <version>main-07e31663c9-1</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson-databind.version}</version>
         </dependency>
-
-        <!--        <dependency>-->
-        <!--            <groupId>org.domingus</groupId>-->
-        <!--            <artifactId>core</artifactId>-->
-        <!--            <version>${core.version}</version>-->
-        <!--        </dependency>-->
+        <!--<dependency>
+            <groupId>org.domingus</groupId>
+            <artifactId>core</artifactId>
+           <version>${core.version}</version>
+        </dependency>-->
     </dependencies>
 
 </project>

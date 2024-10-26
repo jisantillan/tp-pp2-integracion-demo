@@ -15,7 +15,6 @@
         <core.version>1.0-SNAPSHOT</core.version>
         <jackson-databind.version>2.13.0</jackson-databind.version>
     </properties>
-
     <repositories>
         <repository>
             <id>jitpack.io</id>
@@ -23,31 +22,37 @@
         </repository>
     </repositories>
     <dependencies>
-        <dependency>
-            <groupId>com.github.jisantillan</groupId>
-            <artifactId>tp-pp2-core</artifactId>
-            <version>iteracion-1-34d7c0727c-1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.jisantillan</groupId>
-            <artifactId>tp-pp2-UI</artifactId>
-            <version>iteracion-1-68918e1bc3-1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.jisantillan</groupId>
-            <artifactId>tp-pp2-logger</artifactId>
-            <version>main-bc6ee37288-1</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.jisantillan</groupId>-->
+        <!--            <artifactId>tp-pp2-core</artifactId>-->
+        <!--            <version>iteracion-1-1dc5d389b3-1</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.jisantillan</groupId>-->
+        <!--            <artifactId>tp-pp2-UI</artifactId>-->
+        <!--            <version>iteracion-1-73fa808b3a-1</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson-databind.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.domingus</groupId>-->
-<!--            <artifactId>core</artifactId>-->
-<!--           <version>${core.version}</version>-->
-<!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.domingus</groupId>
+            <artifactId>core</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.domingus</groupId>
+            <artifactId>ui</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.domingus</groupId>
+            <artifactId>logger</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
